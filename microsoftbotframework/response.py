@@ -18,9 +18,9 @@ class Response(object):
 
         self.auth = config.get_config(kwargs.pop('auth', True), 'AUTH')
         # self.app_client_id = config.get_config(kwargs.pop('app_client_id', None), 'APP_CLIENT_ID')
-        self.app_client_id="9f1adf19-d801-44ae-802b-724628457b84"
+        self.app_client_id="3cd239d9-a6ad-4379-bcb8-38804033070c"
         #self.app_client_secret = config.get_config(kwargs.pop('app_client_secret', None), 'APP_CLIENT_SECRET')
-        self.app_client_secret = "mhkcIQO36$-cvuYXOG442}["
+        self.app_client_secret = "nvoIAUH59@!fpyjGWP857@~"
         self.http_proxy = config.get_config(kwargs.pop('http_proxy', None), 'HTTP_PROXY')
         self.https_proxy = config.get_config(kwargs.pop('https_proxy', None), 'HTTPS_PROXY')
 

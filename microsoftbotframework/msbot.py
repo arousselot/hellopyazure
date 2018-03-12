@@ -17,7 +17,7 @@ except ImportError:
 
 
 class MsBot(Flask):
-    def __init__(self, import_name=None, app_client_id="9f1adf19-d801-44ae-802b-724628457b84", verify_jwt_signature=None,
+    def __init__(self, import_name=None, app_client_id="3cd239d9-a6ad-4379-bcb8-38804033070c", verify_jwt_signature=None,
                  config_location=None, cache=None, state=None, *args, **kwargs):
 
         depreciated_host = kwargs.pop('host', None)
@@ -38,7 +38,7 @@ class MsBot(Flask):
         self.processes = []
 
         # self.app_client_id = self.mbf_config.get_config(app_client_id, 'APP_CLIENT_ID')
-        self.app_client_id = "9f1adf19-d801-44ae-802b-724628457b84"
+        self.app_client_id = "3cd239d9-a6ad-4379-bcb8-38804033070c"
         cache_arg = self.mbf_config.get_config(cache, 'cache')
         state_arg = self.mbf_config.get_config(state, 'state')
 
