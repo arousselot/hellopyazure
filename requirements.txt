@@ -1,0 +1,8 @@
+--find-links wheelhouse
+Flask==0.12.1
+celery==4.1.0
+requests==2.18.4
+PyJWT==1.6.0
+ptvsd==4.0.0a1
+pymongo==3.6.1
+redis==2.10.6
